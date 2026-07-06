@@ -1,0 +1,91 @@
+
+### 🟢 Level 1 (Very Easy)
+
+* ✅ Print Array
+* ✅ Sum of Array
+* Count Even Numbers
+* Count Odd Numbers
+* Count Positive Numbers
+* Count Negative Numbers
+* Count Zeroes
+* Average of Array
+* Print Even Elements
+* Print Odd Elements
+
+### 🟡 Level 2 (Easy)
+
+* ✅ Maximum Element
+* ✅ Minimum Element
+* ✅ Second Largest
+* Second Smallest
+* First Largest and Second Largest Together
+* Find Index of Maximum Element
+* Find Index of Minimum Element
+* Difference between Max and Min
+
+### 🟠 Level 3 (Easy)
+
+* ✅ Reverse Array
+* Copy Array
+* Print Array in Reverse Order
+* Swap First and Last Element
+* Swap Every Two Adjacent Elements
+* Left Rotate by One
+* Right Rotate by One
+
+### 🔵 Level 4 (Searching)
+
+* ✅ Linear Search
+* Binary Search
+* Find First Occurrence
+* Find Last Occurrence
+* Count Occurrence of an Element
+
+### 🟣 Level 5 (Sorting)
+
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
+* Check if Array is Sorted
+* Sort in Descending Order
+
+### 🟤 Level 6 (Frequency)
+
+* Frequency of Each Element
+* Count Duplicate Elements
+* Remove Duplicates
+* Print Duplicate Elements
+* Print Unique Elements
+
+### 🔴 Level 7 (Important)
+
+* Merge Two Arrays
+* Merge Two Sorted Arrays
+* Find Common Elements
+* Union of Two Arrays
+* Intersection of Two Arrays
+
+### ⭐ Level 8 (Interview Basics)
+
+* Move All Zeroes to End
+* Move All Zeroes to Start
+* Find Missing Number
+* Find Duplicate Number
+* Two Sum
+
+## 📌 Recommended Practice Order
+
+1. Print Array
+2. Sum of Array
+3. Maximum Element
+4. Minimum Element
+5. Second Largest
+6. Reverse Array
+7. Copy Array
+8. Linear Search
+9. Bubble Sort
+10. Frequency of Each Element
+11. Left Rotate by One
+12. Right Rotate by One
+13. Merge Two Arrays
+14. Two Sum
