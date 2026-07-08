@@ -1,0 +1,19 @@
+package com.lcwd.withoutboot;
+
+import java.util.Scanner;
+
+public class LastCharacter {
+    static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter String: ");
+        String s = sc.nextLine();
+
+        if (s.length() > 0) {
+            System.out.println("Last Character = " + s.charAt(s.length() - 1));
+        } else {
+            System.out.println("String is empty");
+        }
+    }
+}
