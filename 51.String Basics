@@ -1,0 +1,168 @@
+public class StringMethodsDemo {
+    public static void main(String[] args) {
+
+        String str = "Java Programming";
+        String str1 = "JAVA";
+        String str2 = "java";
+        String str3 = "   Hello Java   ";
+
+        // ===============================
+        // 1. length()
+        // String ki total length batata hai.
+        // ===============================
+        System.out.println("Length : " + str.length());
+        // Output: 16
+
+
+        // ===============================
+        // 2. charAt()
+        // Kisi index ka character nikalta hai.
+        // ===============================
+        System.out.println("charAt(2) : " + str.charAt(2));
+        // Output: v
+
+
+        // ===============================
+        // 3. equals()
+        // Do strings ko compare karta hai.
+        // ===============================
+        System.out.println("equals : " + str1.equals(str2));
+        // Output: false
+
+
+        // ===============================
+        // 4. equalsIgnoreCase()
+        // Case ignore karke compare karta hai.
+        // ===============================
+        System.out.println("equalsIgnoreCase : " + str1.equalsIgnoreCase(str2));
+        // Output: true
+
+
+        // ===============================
+        // 5. toUpperCase()
+        // Sab letters uppercase me.
+        // ===============================
+        System.out.println("Upper : " + str.toUpperCase());
+        // Output: JAVA PROGRAMMING
+
+
+        // ===============================
+        // 6. toLowerCase()
+        // Sab letters lowercase me.
+        // ===============================
+        System.out.println("Lower : " + str.toLowerCase());
+        // Output: java programming
+
+
+        // ===============================
+        // 7. substring()
+        // Index ke according string ka part nikalta hai.
+        // ===============================
+        System.out.println("Substring : " + str.substring(5,16));
+        // Output: Programming
+
+
+        // ===============================
+        // 8. contains()
+        // Word present hai ya nahi.
+        // ===============================
+        System.out.println("Contains : " + str.contains("Java"));
+        // Output: true
+
+
+        // ===============================
+        // 9. startsWith()
+        // String kis word se start hoti hai.
+        // ===============================
+        System.out.println("StartsWith : " + str.startsWith("Java"));
+        // Output: true
+
+
+        // ===============================
+        // 10. endsWith()
+        // String kis word se end hoti hai.
+        // ===============================
+        System.out.println("EndsWith : " + str.endsWith("ing"));
+        // Output: true
+
+
+        // ===============================
+        // 11. indexOf()
+        // Character ka first index.
+        // ===============================
+        System.out.println("IndexOf : " + str.indexOf('a'));
+        // Output: 1
+
+
+        // ===============================
+        // 12. lastIndexOf()
+        // Character ka last index.
+        // ===============================
+        System.out.println("LastIndexOf : " + str.lastIndexOf('a'));
+        // Output: 13
+
+
+        // ===============================
+        // 13. replace()
+        // Character replace karta hai.
+        // ===============================
+        System.out.println("Replace : " + str.replace('a','@'));
+        // Output: J@v@ Progr@mming
+
+
+        // ===============================
+        // 14. trim()
+        // Starting aur ending spaces hata deta hai.
+        // ===============================
+        System.out.println("Trim : " + str3.trim());
+        // Output: Hello Java
+
+
+        // ===============================
+        // 15. split()
+        // String ko parts me divide karta hai.
+        // ===============================
+        String[] arr = str.split(" ");
+
+        System.out.println("Split:");
+        for(String s : arr){
+            System.out.println(s);
+        }
+
+        // Output:
+        // Java
+        // Programming
+
+
+        // ===============================
+        // 16. toCharArray()
+        // String ko char array me convert karta hai.
+        // ===============================
+        char[] ch = str.toCharArray();
+
+        System.out.print("Char Array : ");
+        for(char c : ch){
+            System.out.print(c + " ");
+        }
+
+        // Output:
+        // J a v a   P r o g r a m m i n g
+
+
+        System.out.println();
+
+
+        // ===============================
+        // 17. StringBuilder
+        // Mutable string hoti hai.
+        // ===============================
+        StringBuilder sb = new StringBuilder("Java");
+
+        sb.append(" Developer");
+
+        System.out.println("StringBuilder : " + sb);
+
+        // Output:
+        // Java Developer
+    }
+}
