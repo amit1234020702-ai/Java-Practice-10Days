@@ -1,0 +1,19 @@
+package com.lcwd.withoutboot;
+
+import java.util.Scanner;
+
+public class CompareTwoStrings {
+    static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter First String: ");
+        String s1 = sc.nextLine();
+        System.out.print("Enter Second String: ");
+        String s2 = sc.nextLine();
+        if (s1.equals(s2)) {
+            System.out.println("Both Strings are Equal");
+        } else {
+            System.out.println("Both Strings are Not Equal");
+        }
+
+    }
+}
