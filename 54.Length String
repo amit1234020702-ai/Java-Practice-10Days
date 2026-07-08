@@ -1,0 +1,14 @@
+package com.lcwd.withoutboot;
+
+import java.util.Scanner;
+
+public class length {
+    static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the string");
+        String s=sc.nextLine();
+        int size=s.length();
+        System.out.println(size);
+
+    }
+}
