@@ -1,0 +1,17 @@
+package com.lcwd.withoutboot;
+
+import java.util.Scanner;
+
+public class FirstCharacter {
+    static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter String: ");
+        String s = sc.nextLine();
+        if(s.length()>0){
+            System.out.println("First charecter="+s.charAt(0));
+        }
+        else{
+            System.out.println("String is Empty");
+        }
+    }
+}
