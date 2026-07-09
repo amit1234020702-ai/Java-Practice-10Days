@@ -1,0 +1,13 @@
+package com.lcwd.withoutboot;
+
+import java.util.Scanner;
+
+public class RemoveSpaces {
+    static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter String: ");
+        String s = sc.nextLine();
+        String result = s.replace(" ", "");
+        System.out.println("After Removing Spaces = " + result);
+    }
+}
