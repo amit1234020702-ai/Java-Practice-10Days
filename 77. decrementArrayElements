@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+class Solution {
+
+    public static int[] decrementArrayElements(int[] arr) {
+
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = arr[i] - 1;
+        }
+
+        return arr;
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        // Array ka size
+        int n = sc.nextInt();
+
+        // Array create
+        int[] arr = new int[n];
+
+        // Array input
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        // Method call
+        int[] result = decrementArrayElements(arr);
+
+        // Print updated array
+        for (int i = 0; i < result.length; i++) {
+            System.out.print(result[i]);
+
+            if (i != result.length - 1) {
+                System.out.print(" ");
+            }
+        
+    }
+}
