@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+class Solution {
+
+    public int getSize(int[] arr) {
+        int size = arr.length;
+        return size;
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        // Array ka size input
+        int n = sc.nextInt();
+
+        // Array create
+        int[] arr = new int[n];
+
+        // Array elements input
+        for (int i = 0; i < n; i++) {
+            arr[i] = sc.nextInt();
+        }
+
+        // Object create
+        Solution obj = new Solution();
+
+        // Method call
+        int size = obj.getSize(arr);
+
+        // Output
+        System.out.println(size);
+    }
+}
