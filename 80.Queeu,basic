@@ -1,0 +1,64 @@
+// Node class
+class Node {
+    int data;
+    Node next;
+
+    Node(int new_data) {
+        data = new_data;
+        next = null;
+    }
+}
+
+// Queue class
+class myQueue {
+
+    Node front, rear;
+    int count;
+
+    public myQueue() {
+        front = rear = null;
+        count = 0;
+    }
+
+    public boolean isEmpty() {
+        return front == null;
+    }
+
+    public void enqueue(int x) {
+        Node newNode = new Node(x);
+
+        if (front == null) {
+            front = rear = newNode;
+        } else {
+            rear.next = newNode;
+            rear = newNode;
+        }
+
+        count++;
+    }
+
+    public void dequeue() {
+        if (front == null) {
+            return;
+        }
+
+        front = front.next;
+        count--;
+
+        if (front == null) {
+            rear = null;
+        }
+    }
+
+    public int getFront() {
+        if (front == null) {
+            return -1;
+        }
+
+        return front.data;
+    }
+
+    public int size() {
+        return count;
+    }
+}
