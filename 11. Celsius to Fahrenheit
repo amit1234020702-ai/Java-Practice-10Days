@@ -7,9 +7,9 @@ public class CelsiusToFahrenheit {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter Celsius: ");
-        double c = sc.nextDouble();
+        double c = sc.nextDouble();//c=6
 
-        double f = (c * 9 / 5) + 32;
+        double f = (c * 9 / 5) + 32;//6*9/5+32
 
         System.out.println("Fahrenheit = " + f);
     }
