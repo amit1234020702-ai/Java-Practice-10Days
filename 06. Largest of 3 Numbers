@@ -7,21 +7,21 @@ public class LargestOfThree {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter first number: ");
-        int a = sc.nextInt();
+        int a = sc.nextInt();//a=5
 
         System.out.print("Enter second number: ");
-        int b = sc.nextInt();
+        int b = sc.nextInt();//b=6
 
         System.out.print("Enter third number: ");
-        int c = sc.nextInt();
+        int c = sc.nextInt();//c=7
 
-        if (a >= b && a >= c)
+        if (a >= b && a >= c)//5>=7 && 5>=7
             System.out.println("Largest = " + a);
 
-        else if (b >= a && b >= c)
+        else if (b >= a && b >= c)6>=5 && 6>=7
             System.out.println("Largest = " + b);
 
         else
-            System.out.println("Largest = " + c);
+            System.out.println("Largest = " + c);//c=7 true
     }
 }
