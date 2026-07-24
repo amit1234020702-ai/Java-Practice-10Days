@@ -11,12 +11,17 @@ public class SwapNumbers {
 
         System.out.print("Enter b: ");
         int b = sc.nextInt();
+         // a=4
+         //b=5
+         //temp=4
 
+         // a=5
+//b=4
         int temp = a;
         a = b;
         b = temp;
 
-        System.out.println("a = " + a);
-        System.out.println("b = " + b);
+        System.out.println("a = " + a);//5
+        System.out.println("b = " + b);//4
     }
 }
