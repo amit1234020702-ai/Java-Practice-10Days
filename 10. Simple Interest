@@ -7,16 +7,16 @@ public class SimpleInterest {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter Principal: ");
-        double p = sc.nextDouble();
+        double p = sc.nextDouble();//principal=100
 
         System.out.print("Enter Rate: ");
-        double r = sc.nextDouble();
+        double r = sc.nextDouble();//rate=6
 
         System.out.print("Enter Time: ");
-        double t = sc.nextDouble();
+        double t = sc.nextDouble();//time=3
 
-        double si = (p * r * t) / 100;
+        double si = (p * r * t) / 100;//100*6*3/100=18
 
-        System.out.println("Simple Interest = " + si);
+        System.out.println("Simple Interest = " + si);//18
     }
 }
