@@ -18,12 +18,8 @@ public class LargestDigit {
             if (digit > max) {
                 max = digit;
             }
-
             n = n / 10;
         }
-
         System.out.println("Largest = " + max);
-
-        sc.close();
     }
 }
