@@ -23,7 +23,5 @@ public class SmallestDigit {
         }
 
         System.out.println("Smallest = " + min);
-
-        sc.close();
     }
 }
