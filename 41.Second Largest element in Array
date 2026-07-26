@@ -8,7 +8,7 @@ public class SecondLargestArray {
 
         System.out.println("Enter the size of elements");
         int n = sc.nextInt();//n=5
-
+ 
         int[] arr = new int[n];//[ ,  ,  ,  ,  ]
 
         System.out.println("Enter the elements in the array");
