@@ -8,13 +8,16 @@ public class LinearSearch {
 
         System.out.print("Enter size: ");
         int n = sc.nextInt();
+//n=5
 
         int arr[] = new int[n];
+//[ , , , , ]
 
         System.out.println("Enter array elements:");
 
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
+//[4 5 2 6 7 ]
         }
 
         System.out.print("Enter element to search: ");
