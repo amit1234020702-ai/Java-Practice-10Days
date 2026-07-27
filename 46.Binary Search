@@ -30,6 +30,7 @@ public class BinarySearch {
             if (arr[mid] == key) {
                 System.out.println("Element found at index " + mid);
                 return;
+//return true;
             }
             else if (key > arr[mid]) {
                 low = mid + 1;
@@ -40,5 +41,6 @@ public class BinarySearch {
         }
 
         System.out.println("Element not found");
+//return false;
     }
 }
