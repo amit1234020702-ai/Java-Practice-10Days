@@ -7,17 +7,20 @@ public class BubbleSort {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter size: ");
-        int n = sc.nextInt();
+        int n = sc.nextInt();//n=5
 
         int[] arr = new int[n];
+//[ , , , , ]
 
         System.out.println("Enter array elements:");
 
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();
-        }
+//[3,6,4,7,8]
+//i=0
+//j=0
 
-        // Bubble Sort
+        }
         for (int i = 0; i < n - 1; i++) {
 
             for (int j = 0; j < n - i - 1; j++) {
@@ -33,7 +36,7 @@ public class BubbleSort {
         }
 
         System.out.println("Sorted Array:");
-
+//for(num:arr)
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
