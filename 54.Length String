@@ -7,8 +7,11 @@ public class length {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the string");
         String s=sc.nextLine();
+//s="amit sharma";
         int size=s.length();
+//size=11
         System.out.println(size);
+//11
 
     }
 }
