@@ -12,3 +12,57 @@ public class reversestring {
         }
     }
 }
+
+/////////////////////////////
+/////////////////////////
+
+///tow pointer method
+class Solution{
+public static String reverseString(String s)
+{
+char[] arr=s.toCharArray();
+int i=0;
+int j=arr.length-1;
+while(J>i){
+char temp=arr[i];
+arr[i]=arr[j];
+arr[j]=temp;
+j--;
+i++;
+
+ }
+return new String(arr);
+}
+
+
+////////////////////////////////////
+//////////////////////
+
+
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        String s = sc.next();
+
+        char[] arr = s.toCharArray();
+
+        int left = 0;
+        int right = arr.length - 1;
+
+        while (left < right) {
+            char temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+
+            left++;
+            right--;
+        }
+
+        System.out.println(new String(arr));
+    }
+}
