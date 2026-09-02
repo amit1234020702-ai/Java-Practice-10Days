@@ -1,0 +1,46 @@
+Input: a = 20, b = 28
+Output: 4
+Explanation: GCD of 20 and 28 is 4
+Input: a = 60, b = 36
+Output: 12
+
+
+Explanation: GCD of 60 and 36 is 12
+class Solution {
+    public static int gcd(int a, int b) {
+        while(b!=0){
+            int temp=b;
+            b=a%b;
+            a=temp;
+        }
+         return a;
+    }
+   
+}
+
+
+//////////////////////////////////////////
+
+
+LCM of two numbers
+Input: a = 12, b = 18
+Output: 36
+Explanation: LCM of 12 and 18 is 36
+Input: a = 5, b = 11
+Output: 55
+
+Explanation: LCM of 5 and 11 is 55
+class Solution {
+    public int lcm(int a, int b) {
+        int a1=a;
+        int b1=b;
+        while(b!=0){
+            int temp=b;
+            b=a%b;
+            a=temp;
+        }
+        int x=a;
+        return(a1*b1)/x;
+        
+    }
+}
