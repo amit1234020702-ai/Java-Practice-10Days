@@ -7,7 +7,7 @@ public class SimpleInterest {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter Principal: ");
-        double p = sc.nextDouble();//principal=100
+        double p = sc.nextDouble();//principal=100  
 
         System.out.print("Enter Rate: ");
         double r = sc.nextDouble();//rate=6
