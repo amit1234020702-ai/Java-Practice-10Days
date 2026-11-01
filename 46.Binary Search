@@ -1,4 +1,4 @@
-vimport java.util.Scanner;
+vimport java.util.Scanner; 
 
 public class BinarySearch {
 
